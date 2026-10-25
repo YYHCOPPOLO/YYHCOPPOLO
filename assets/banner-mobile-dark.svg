@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Alleva Coppolo — front-end learner and UI/UX explorer</title>
+  <desc id="desc">A compact aurora banner in dark mode with the name Alleva Coppolo, the handle YYHCOPPOLO, the site coppolo.cn and a small glass card.</desc>
+  <style>
+    .pulse { animation: pulse 3.4s ease-in-out infinite; }
+    .drift { animation: drift 22s ease-in-out infinite alternate; }
+    .drift-1 { animation-duration: 27s; animation-delay: -7s; }
+    .drift-2 { animation-duration: 31s; animation-delay: -13s; }
+    @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: 0.3 } }
+    @keyframes drift { from { transform: translate(0, 0) } to { transform: translate(0, 20px) } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .drift { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="m-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1b26"/>
+      <stop offset="0.55" stop-color="#151620"/>
+      <stop offset="1" stop-color="#191a28"/>
+    </linearGradient>
+    <pattern id="m-grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#c0caf5" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="m-glow0" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.3"/>
+      <stop offset="0.55" stop-color="#7aa2f7" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="m-glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bb9af7" stop-opacity="0.26"/>
+      <stop offset="0.55" stop-color="#bb9af7" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="m-glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7dcfff" stop-opacity="0.13"/>
+      <stop offset="0.55" stop-color="#7dcfff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#7dcfff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="m-name" x1="0" y1="0" x2="1" y2="0.55">
+      <stop offset="0" stop-color="#f4f6ff"/>
+      <stop offset="1" stop-color="#a9c1ff"/>
+    </linearGradient>
+    <linearGradient id="m-card" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#1e2130"/>
+      <stop offset="1" stop-color="#252a3d"/>
+    </linearGradient>
+    <linearGradient id="m-cardStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="m-sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="m-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <filter id="m-shadow" x="-40%" y="-40%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <g>
+    <rect x="0" y="0" width="720" height="400" rx="24" fill="url(#m-bg)"/>
+    <rect x="0" y="0" width="720" height="400" rx="24" fill="url(#m-grid)"/>
+    <circle cx="96" cy="-40" r="380" fill="url(#m-glow0)" class="drift drift-0"/>
+    <circle cx="1140" cy="340" r="400" fill="url(#m-glow1)" class="drift drift-1"/>
+    <circle cx="690" cy="-60" r="300" fill="url(#m-glow2)" class="drift drift-2"/>
+    <rect x="0.75" y="0.75" width="718.5" height="398.5" rx="23.25" fill="none" stroke="#2e3448" stroke-width="1.5"/>
+    <rect x="1.75" y="1.75" width="716.5" height="396.5" rx="22.25" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  </g>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <rect x="46" y="74" width="206" height="29" rx="14.5" fill="#7aa2f7" fill-opacity="0.1" stroke="#7aa2f7" stroke-opacity="0.32"/>
+    <circle cx="63" cy="88.5" r="3.2" fill="#9ece6a" class="pulse"/>
+    <text x="77" y="92.5" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#7aa2f7">FRONT-END · UI/UX</text>
+
+    <text x="44" y="192" font-size="48" font-weight="700" letter-spacing="-0.5" fill="url(#m-name)">Alleva Coppolo</text>
+    <rect x="46" y="207" width="84" height="3" rx="1.5" fill="url(#m-bar)"/>
+    <text x="46" y="238" font-size="16" font-weight="500" letter-spacing="0.2">
+      <tspan fill="#a7b6e6">@YYHCOPPOLO</tspan><tspan dx="12" fill="#8b93bb">·</tspan><tspan dx="12" fill="#8b93bb">coppolo.cn</tspan>
+    </text>
+    <text x="46" y="280" font-size="17.5" fill="#98a2c8">Turning curious ideas</text>
+    <text x="46" y="308" font-size="17.5" fill="#98a2c8">into usable interfaces.</text>
+  </g>
+  <g filter="url(#m-shadow)">
+    <g transform="rotate(-7 518 212)">
+      <rect x="442" y="78" width="234" height="266" rx="22" fill="#1e2130" stroke="#bb9af7" stroke-opacity="0.16"/>
+    </g>
+    <g transform="rotate(-3 540 200)">
+      <rect x="435" y="71" width="241" height="269" rx="23" fill="#1e2130" stroke="#7aa2f7" stroke-opacity="0.2"/>
+    </g>
+    <rect x="428" y="64" width="248" height="272" rx="24" fill="url(#m-card)" stroke="url(#m-cardStroke)" stroke-width="1.5"/>
+    <rect x="429" y="65" width="246" height="149.6" rx="23" fill="url(#m-sheen)"/>
+    <circle cx="452" cy="94" r="4" fill="#f7768e" fill-opacity="0.95"/><circle cx="468" cy="94" r="4" fill="#e0af68" fill-opacity="0.95"/><circle cx="484" cy="94" r="4" fill="#9ece6a" fill-opacity="0.95"/>
+    <rect x="506" y="82" width="148" height="24" rx="12" fill="#101118"/>
+    <text x="520" y="98" font-size="11" fill="#7d87b0" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">coppolo.cn</text>
+    <circle cx="472" cy="160" r="24" fill="none" stroke="url(#m-cardStroke)" stroke-width="2"/>
+    <circle cx="472" cy="160" r="20.5" fill="#7aa2f7" fill-opacity="0.16"/>
+    <text x="472" y="164.5" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="0.2" fill="#a9c1ff">AC</text>
+    <rect x="506" y="144" width="148" height="10" rx="5" fill="#c0caf5" fill-opacity="0.5"/>
+    <rect x="506" y="162" width="91.76" height="8" rx="4" fill="#c0caf5" fill-opacity="0.2"/>
+    
+    <line x1="450" y1="194" x2="654" y2="194" stroke="#353d56" stroke-width="1"/>
+    <rect x="450" y="202" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="450" y="218" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="450" y="234" width="11" height="11" rx="3.3" fill="#242838"/><rect x="450" y="250" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="450" y="266" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="450" y="282" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="450" y="298" width="11" height="11" rx="3.3" fill="#242838"/><rect x="466" y="202" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="466" y="218" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="466" y="234" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="466" y="250" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="466" y="266" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="466" y="282" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="466" y="298" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="482" y="202" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="482" y="218" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="482" y="234" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="482" y="250" width="11" height="11" rx="3.3" fill="#242838"/><rect x="482" y="266" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="482" y="282" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="482" y="298" width="11" height="11" rx="3.3" fill="#242838"/><rect x="498" y="202" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="498" y="218" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="498" y="234" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="498" y="250" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="498" y="266" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="498" y="282" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="498" y="298" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="514" y="202" width="11" height="11" rx="3.3" fill="#242838"/><rect x="514" y="218" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="514" y="234" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="514" y="250" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="514" y="266" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="514" y="282" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="514" y="298" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="530" y="202" width="11" height="11" rx="3.3" fill="#242838"/><rect x="530" y="218" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="530" y="234" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="530" y="250" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="530" y="266" width="11" height="11" rx="3.3" fill="#242838"/><rect x="530" y="282" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="530" y="298" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="546" y="202" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="546" y="218" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="546" y="234" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="546" y="250" width="11" height="11" rx="3.3" fill="#242838"/><rect x="546" y="266" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="546" y="282" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="546" y="298" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="562" y="202" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="562" y="218" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="562" y="234" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="562" y="250" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="562" y="266" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="562" y="282" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="562" y="298" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="578" y="202" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="578" y="218" width="11" height="11" rx="3.3" fill="#242838"/><rect x="578" y="234" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="578" y="250" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="578" y="266" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="578" y="282" width="11" height="11" rx="3.3" fill="#242838"/><rect x="578" y="298" width="11" height="11" rx="3.3" fill="#242838"/><rect x="594" y="202" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="594" y="218" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="594" y="234" width="11" height="11" rx="3.3" fill="#7aa2f7"/><rect x="594" y="250" width="11" height="11" rx="3.3" fill="#242838"/><rect x="594" y="266" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="594" y="282" width="11" height="11" rx="3.3" fill="#242838"/><rect x="594" y="298" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="610" y="202" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="610" y="218" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="610" y="234" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="610" y="250" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="610" y="266" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="610" y="282" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="610" y="298" width="11" height="11" rx="3.3" fill="#26355c"/><rect x="626" y="202" width="11" height="11" rx="3.3" fill="#242838"/><rect x="626" y="218" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="626" y="234" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="626" y="250" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="626" y="266" width="11" height="11" rx="3.3" fill="#4c76c9"/><rect x="626" y="282" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="626" y="298" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="642" y="202" width="11" height="11" rx="3.3" fill="#242838"/><rect x="642" y="218" width="11" height="11" rx="3.3" fill="#242838"/><rect x="642" y="234" width="11" height="11" rx="3.3" fill="#242838"/><rect x="642" y="250" width="11" height="11" rx="3.3" fill="#242838"/><rect x="642" y="266" width="11" height="11" rx="3.3" fill="#34518f"/><rect x="642" y="282" width="11" height="11" rx="3.3" fill="#242838"/><rect x="642" y="298" width="11" height="11" rx="3.3" fill="#242838"/>
+  </g>
+</svg>
